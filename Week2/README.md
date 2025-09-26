@@ -12,6 +12,17 @@
     * 각 이미지는 `CardView` 내부에 배치되어 시각적인 입체감과 둥근 모서리 효과를 가집니다.
 * **사진 확대 보기**: 사진 목록에서 특정 이미지를 클릭하면 해당 이미지를 확대하여 보여주는 상세 화면으로 이동합니다.
     * `Intent`의 `putExtra()`를 통해 클릭된 이미지의 ID 또는 관련 데이터를 전달하고, 상세 화면에서는 `getStringExtra()`를 통해 이를 받아와 이미지를 로드합니다.
-<img width="1080" height="2400" alt="Screenshot_20250926_153134" src="https://github.com/user-attachments/assets/8d16dd0e-1f7f-4ef7-b51a-5796f75b4493" />
-<img width="1080" height="2400" alt="Screenshot_20250926_152709" src="https://github.com/user-attachments/assets/7b4c28b8-c106-4d86-bae4-363c3912f76c" />
-<img width="1080" height="2400" alt="Screenshot_20250926_161319" src="https://github.com/user-attachments/assets/285bdced-ff4b-418f-8ddd-89a6e92abaff" />
+
+<table>
+  <tr>
+    <td align="center">
+      <img width="480" height="1080" alt="Screenshot_20250926_153134" src="https://github.com/user-attachments/assets/8d16dd0e-1f7f-4ef7-b51a-5796f75b4493" />
+    </td>
+    <td align="center">
+      <img width="480" height="1080" alt="Screenshot_20250926_152709" src="https://github.com/user-attachments/assets/7b4c28b8-c106-4d86-bae4-363c3912f76c" />
+    </td>
+    <td align="center">
+      <img width="480" height="1080" alt="Screenshot_20250926_161319" src="https://github.com/user-attachments/assets/285bdced-ff4b-418f-8ddd-89a6e92abaff" />
+    </td>
+  </tr>
+</table>
