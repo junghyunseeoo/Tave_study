@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nct_nav"
+    app:startDestination="@id/n127_Fragment">
+
+    <fragment
+        android:id="@+id/n127_Fragment"
+        android:name="ddwu.com.mobile.nct_list.N127_Fragment"
+        android:label="fragment_n127_"
+        tools:layout="@layout/fragment_n127_" >
+        <action
+            android:id="@+id/action_n127_Fragment_to_ndream_Fragment"
+            app:destination="@id/ndream_Fragment" />
+        <action
+            android:id="@+id/action_n127_Fragment_to_nwish_Fragment"
+            app:destination="@id/nwish_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ndream_Fragment"
+        android:name="ddwu.com.mobile.nct_list.Ndream_Fragment"
+        android:label="fragment_ndream_"
+        tools:layout="@layout/fragment_ndream_" >
+        <action
+            android:id="@+id/action_ndream_Fragment_to_n127_Fragment"
+            app:destination="@id/n127_Fragment" />
+        <action
+            android:id="@+id/action_ndream_Fragment_to_nwish_Fragment"
+            app:destination="@id/nwish_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nwish_Fragment"
+        android:name="ddwu.com.mobile.nct_list.Nwish_Fragment"
+        android:label="fragment_nwish_"
+        tools:layout="@layout/fragment_nwish_" >
+        <action
+            android:id="@+id/action_nwish_Fragment_to_n127_Fragment"
+            app:destination="@id/n127_Fragment" />
+        <action
+            android:id="@+id/action_nwish_Fragment_to_ndream_Fragment"
+            app:destination="@id/ndream_Fragment" />
+    </fragment>
+</navigation>
